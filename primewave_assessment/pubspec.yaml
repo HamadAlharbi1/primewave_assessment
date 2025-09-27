@@ -1,0 +1,74 @@
+name: primewave_assessment
+description: >
+    A comprehensive Flutter application demonstrating advanced development skills,
+    clean architecture principles, and production-ready implementation practices.
+    Features infinite scrolling articles list, robust data models, secure image loading,
+    theme switching, comprehensive testing, and modern Material Design 3 UI.
+publish_to: 'none'
+# Version information
+version: 1.0.0+1
+
+# Flutter SDK version requirement
+environment:
+    sdk: '>=3.8.1 <4.0.0'
+    flutter: '>=3.24.0'
+
+# Core dependencies
+dependencies:
+    flutter:
+        sdk: flutter
+
+    # UI and Icons
+    cupertino_icons: ^1.0.8
+
+    # Network and HTTP
+    http: ^1.5.0
+
+    # Async utilities
+    async: ^2.11.0
+
+    # Local storage and preferences
+    shared_preferences: ^2.2.2
+
+# Development dependencies
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+    # Code quality and linting
+    flutter_lints: ^5.0.0
+
+# Flutter configuration
+flutter:
+    # Material Design 3 support
+    uses-material-design: true
+
+    # Assets configuration (uncomment and configure as needed)
+    # assets:
+    #   - assets/images/
+    #   - assets/icons/
+
+    # Font configuration (uncomment and configure as needed)
+    # fonts:
+    #   - family: CustomFont
+    #     fonts:
+    #       - asset: fonts/CustomFont-Regular.ttf
+    #       - asset: fonts/CustomFont-Bold.ttf
+    #         weight: 700
+
+# Additional metadata for professional projects
+# Note: Update these URLs when you create your GitHub repository
+# homepage: https://github.com/your-username/primewave-assessment
+# repository: https://github.com/your-username/primewave-assessment
+# issue_tracker: https://github.com/your-username/primewave-assessment/issues
+# documentation: https://github.com/your-username/primewave-assessment#readme
+
+# Keywords for better discoverability
+topics:
+    - flutter
+    - dart
+    - mobile-app
+    - material-design
+    - clean-architecture
+    - testing
+    - api-integration
